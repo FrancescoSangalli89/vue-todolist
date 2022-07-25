@@ -22,6 +22,6 @@ const app = new Vue({
         },
         doneTrue(position) {
             this.toDos[position].done = !this.toDos[position].done;
-        }
-    }
+        },
+    },
 })
