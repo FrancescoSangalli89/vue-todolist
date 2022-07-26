@@ -10,7 +10,7 @@ const app = new Vue({
             this.toDos.splice(position, 1);
         },
         addToDo() {
-            if (this.newToDo != '') {
+            if (this.newToDo.trim() != '') {
                 this.toDos.push(
                     {
                         'text': this.newToDo.trim(),
